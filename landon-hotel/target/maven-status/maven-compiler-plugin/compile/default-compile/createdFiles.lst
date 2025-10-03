@@ -1,0 +1,4 @@
+com\frankmoley\lil\landon_hotel\data\CLRunner.class
+com\frankmoley\lil\landon_hotel\LandonHotelApplication.class
+com\frankmoley\lil\landon_hotel\data\repository\RoomRepository.class
+com\frankmoley\lil\landon_hotel\data\entity\Room.class
