@@ -1,0 +1,13 @@
+> docker ps
+CONTAINER ID   IMAGE             COMMAND                  CREATED         STATUS         PORTS                                         NAMES
+f52c143afbcf   postgres:latest   "docker-entrypoint.s…"   3 minutes ago   Up 3 minutes   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp   learning-spring-postgres
+PS C:\Users\mpbarbieri.TOPAZ.000\IdeaProjects\learning-spring> docker exec -it learning-spring-postgres
+
+
+> docker exec -it learning-spring-postgres /bin/bash
+root@f52c143afbcf:/#
+
+root@f52c143afbcf:/# psql -U postgres
+
+postgres=# <copy and past schema.sql and data.sql>
+postgres=# select * from lil.rooms;
